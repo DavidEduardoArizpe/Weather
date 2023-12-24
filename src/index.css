@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&family=Lato:ital,wght@1,300&family=Noto+Serif+Old+Uyghur&family=Reem+Kufi+Fun:wght@600&display=swap');
+
+body {
+ font-family: Arial, sans-serif;
+  margin: 0;
+   padding: 0;
+    background-color: #f4f4f4;
+  display: flex;
+flex-direction: column;
+ align-items: center;
+   text-align: center;
+}
+  
+h1 {
+    margin: 20px 0;
+     color: #333;
+    font-family: Lato;
+}
+  
+.cart {
+    display: flex;
+     flex-direction: column;
+      align-items: center;
+     justify-content: center;
+    margin: 20px auto;
+     padding: 20px;
+      background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 60%;
+min-height: 280px;
+ min-width: 300px;
+  position: relative;
+    text-wrap: pretty;
+     user-select: none;
+}
+
+  .cart h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .cart h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #555;
+  }
+  
+  .cart img {
+    max-width: 100px;
+    max-height: 100px;
+    margin-top: 20px;
+  }
+  
+.spinner {
+  border: 4px solid #09f;
+    width: 56px;
+      height: 56px;
+    border-radius: 50%;
+  border-left-color: transparent;
+ animation: spin 1.2s linear infinite;
+}
+
+@keyframes spin {
+  0%{ rotate: 0deg }
+  100%{ rotate: 360deg; }
+}
+
+.weather-icon{
+  position: absolute;
+    top: -25px;
+  right: -5px;
+}
+
+h1 small{
+  font-size: 16px;
+}
